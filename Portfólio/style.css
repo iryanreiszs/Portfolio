@@ -30,27 +30,32 @@ body {
 
 /* Responsividade */
 @media screen and (max-width: 768px) {
+
     .navbar {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: nowrap;
-    }
-    
-    .navbar a {
-      padding: 5px;
-      flex: 1;
-      text-align: center;
+      display: none;
     }
 
-    .titulo-curriculo h2{
-        display: none;
+    .curriculo{
+        margin-top: 200px;
+    }
+
+    .sidebar{
+        background-color: rgb(1, 20, 48) ;
+        backdrop-filter: blur(10px);
     }
   }  
 /*Responsividade*/
 
-
+/*<header class="header">
+    <nav>
+        <div class="navbar">
+            <a href="#sobre"><strong>SOBRE </strong></a>
+            <a href="#curriculo"><strong>CURRÍCULO</strong></a>
+            <a href="#projetos"><strong>PROJETOS</strong></a>
+            <a href="#habilidades"><strong>HABILIDADES</strong></a>           
+        </div>
+    </nav>
+    </header>/*
 
 /* HEADER */
 .header {
@@ -60,6 +65,15 @@ body {
     width: 100%;
     z-index: 1000;
 }
+
+.img-eu{
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(2, 26, 63);
+    margin-bottom: 50px;
+}
+
+/*MOBILE*/
 
 /* NAVBAR */
 
@@ -90,6 +104,10 @@ body {
     width: 100%;
     height: 100vh;
     overflow-y: auto; 
+}
+
+#sobre, #curriculo, #habilidades, #projetos {
+    scroll-margin-top: 100px;
 }
 
 /* SOBRE-MIM */
@@ -157,8 +175,11 @@ body {
     margin-top: 60px;
 }
 
-.linux img{
+.img-certificado img{
     border-radius: 10px;
+}
+.trabalhos{
+    margin-top: 70px;
 }
 
 /* CURRÍCULO */

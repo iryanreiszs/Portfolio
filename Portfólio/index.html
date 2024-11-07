@@ -11,19 +11,67 @@
 </head>
 
 <body>
-    <header class="header">
-    <nav>
+<!-- <nav>
         <div class="navbar">
             <a href="#sobre"><strong>SOBRE </strong></a>
             <a href="#curriculo"><strong>CURRÍCULO</strong></a>
-            <a href="#projetos"><strong>PROJETOS</strong></a>           
+            <a href="#projetos"><strong>PROJETOS</strong></a>
+            <a href="#habilidades"><strong>HABILIDADES</strong></a>           
         </div>
     </nav>
+ -->
+    
+
+
+    <header class="header">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container">
+                
+              <!-- Botão Hamburguer -->
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Sidebar -->
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                <!-- Sidebar header -->
+                <div class="offcanvas-header text-white border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><strong>MEU PORTFÓLIO</strong></h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <!-- Sidebar body -->
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#sobre"><strong>SOBRE MIM</strong></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#curriculo"><strong>CURRÍCULO</strong></a>
+                      </li>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link" href="#habilidades"><strong>HABILIDADES</strong></a>
+                      </li>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link" href="#projetos"><strong>PROJETOS</strong></a>
+                      </li>
+                </div>
+              </div>
+            </div>
+          </nav>         
     </header>
 
     <main class="main">
         <section id="sobre" class="sobre-mim">
-            <div class="sb-mim">
+          <div>
+            <img class="img-eu" src="imgs/ImgEu.jpg" width="150"></img>
+          </div>
+            <div class="sb-mim">             
                 <h2><strong>RYAN REIS POLTRONIERI</strong></h2>
                 <p>Sou Ryan Reis Poltronieri, tenho 18 anos e sou apaixonado por desafios e aprendizado contínuo. Minha trajetória começou na área de Análises Clínicas, onde tive a oportunidade de me desenvolver como estagiário, aprimorando habilidades em laboratório e atendimento ao paciente. Atualmente, curso Análise e Desenvolvimento de Sistemas, na FATEC, buscando me capacitar em tecnologia da informação e expandir meu repertório técnico. Com este portfólio, pretendo mostrar minha evolução acadêmica e profissional, destacando minha motivação em aplicar conhecimentos e contribuir para o sucesso de futuros projetos e oportunidades de trabalho.</p>
             </div>
@@ -37,15 +85,33 @@
                     <p>Ensino Médio Técnico em Análises Clínicas - Colégio Técnico "Antônio Teixeira Fernandes" - São José dos Campos - Concluído em dezembro de 2023.</p>
 
                 <h5 class="certificacao"><strong>CERTIFICAÇÕES:</strong></h5>
-                    <p>Certificação em NDG Linux Unhatched ADS pela Cisco Networking Academy</p>
-                        <div class="linux">
+                <p><strong>CLIQUE NAS IMAGENS PARA ABRÍ-LAS EM OUTRA PÁGINA!</strong></p>
+                    <p>Certificação em NDG Linux Unhatched ADS pela Cisco Networking Academy:</p>
+                        <div class="img-certificado">
                             <a href="imgs/Linux.JPG" target="_blank">
-                                <img src="imgs/Linux.JPG" alt="Descrição da Imagem" width="200">
-                                <p>Clique aqui para abri-lo em outra página</p>
+                                <img src="imgs/Linux.JPG" width="200">  
                             </a>
-                        </div>            
+                        </div>    
+                        
+                    <p>Certificação em Educação Financeira pela UNIVAP :</p>
+                        <div class="img-certificado">
+                            <a href="imgs/edfin.JPG" target="_blank">
+                                <img src="imgs/edfin.JPG" width="200">                             
+                            </a>
+                        </div>
+
+                    <p>Certificação em Gamificação pela UNIVAP :</p>
+                        <div class="img-certificado">
+                            <a href="imgs/Gamificação.JPG" target="_blank">
+                                <img src="imgs/Gamificação.JPG" width="200">
+                            </a>
+                        </div>
+
+                <h5 class="trabalhos"><strong>TRABALHOS ACADÊMICOS:</strong></h5>
+                <p>Trabalho de Conclusão de Curso (TCC)</p>      
             </div>
         </section>
+
         
         
 
@@ -60,7 +126,7 @@
             <ion-icon name="logo-linkedin"></ion-icon>
         </a>
     </footer>
-
+  
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 

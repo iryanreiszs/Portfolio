@@ -142,26 +142,28 @@ body {
 
 /* CURRÍCULO */
 .curriculo {
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 20px;
+    padding: 100px 20px 150px 20px;
+    margin-top: 30px;
 }
 
 .curriculo h5{
     color: white;
+    
 }
 
 .titulo-curriculo {
     max-width: 800px;
+    height: auto;
 }
 
 .titulo-curriculo h2 {
     color: white;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .titulo-curriculo p {
@@ -172,15 +174,20 @@ body {
 }
 
 .certificacao{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .img-certificado img{
     border-radius: 10px;
 }
 .trabalhos{
-    margin-top: 70px;
+    margin-top: 110px;
 }
+
+ .img-tcc{
+    margin-top: 0;
+    border-radius: 10px;
+ }
 
 /* CURRÍCULO */
 

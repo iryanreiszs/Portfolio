@@ -94,13 +94,12 @@ body {
 
 .navbar a:hover {
     border-radius: 5px;
-    transform: scale(1.08);
+    transform: scale(1.1);
 }
 
 /* MAIN */
 .main {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 100%;
     height: 100vh;
     overflow-y: auto; 
@@ -108,6 +107,12 @@ body {
 
 #sobre, #curriculo, #habilidades, #projetos {
     scroll-margin-top: 100px;
+}
+
+section {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 /* SOBRE-MIM */
@@ -146,6 +151,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 100px 20px 150px 20px;
     margin-top: 30px;
 }
@@ -170,11 +176,14 @@ body {
     color: white;
     text-align: justify;
     font-size: 18px;
-    margin-top: 20px;
 }
 
 .certificacao{
     margin-top: 100px;
+}
+
+.certificacao p{
+    padding: 10px;
 }
 
 .img-certificado img{
@@ -184,6 +193,10 @@ body {
     margin-top: 110px;
 }
 
+.trabalhos p{
+    color: white;
+}
+
  .img-tcc{
     margin-top: 0;
     border-radius: 10px;
@@ -191,6 +204,53 @@ body {
 
 /* CURRÍCULO */
 
+
+
+/*HABILIDADES*/
+
+.habilidades {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px 150px 20px;
+    margin-top: 30px;
+}
+
+.habilidades h5{
+    color: white;
+    
+}
+
+.habilidades li{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.titulo-habilidade {
+    max-width: 800px;
+    height: auto;
+}
+
+.titulo-habilidade h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-habilidade p {
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.soft-skills{
+    margin-top: 100px;
+}
+
+/*HABILIDADES*/
 
 
 /*FOOTER*/

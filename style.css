@@ -191,10 +191,11 @@ section {
 }
 
 .img-certificado img{
-    padding: 10px;
-    padding-bottom: 10px;
+    padding: 0;
+    margin-bottom: 20px;
     margin-left: 7px;
     border-radius: 10px;
+    border: 5px solid rgb(2, 26, 63);
 }
 .trabalhos{
     margin-top: 110px;

@@ -15,7 +15,16 @@ Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar m
 
 - **HTML5** e **CSS3**
 - **JavaScript**
-- **React.js**: Framework utilizado para a construção da interface.
 - **Vercel**: Hospedagem do projeto.
 
-## 📂 Estrutura do Projeto
+## 🎨 Melhorias Futuras
+Adicionar animações para melhorar a experiência do usuário.
+Implementar uma seção de blog para compartilhar conhecimentos.
+Otimizar SEO para melhor ranqueamento.
+
+## 📞 Contato
+Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- **E-mail:** ryanreis@exemplo.com
+- **LinkedIn:** Ryan Reis
+Desenvolvido por Ryan Reis.

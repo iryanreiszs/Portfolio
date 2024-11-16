@@ -26,6 +26,6 @@ Otimizar SEO para melhor ranqueamento.
 Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
 - **E-mail:** ryanreisunivap@gmail.com
-- **LinkedIn:** linkedin.com/in/iryanreiszs/
+- **LinkedIn:** (https://linkedin.com/in/iryanreiszs/).
 
 Desenvolvido por Ryan Reis.

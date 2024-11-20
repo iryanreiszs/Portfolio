@@ -2,7 +2,7 @@
 
 # Portfólio Pessoal - Ryan Reis
 
-Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e informações profissionais. O site está disponível em [portfolio-ryanreis.vercel.app](https://portfolio-ryanreis.vercel.app/).
+Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e informações profissionais. O site está disponível em [portfolio-ryanreis.vercel.app](https://portfolio-ryan-nine.vercel.app).
 
 ## 🚀 Funcionalidades
 

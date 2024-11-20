@@ -4,7 +4,7 @@
 
 Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e informações profissionais. O site está disponível em [portfolio-ryanreis.vercel.app](https://portfolio-ryanreis.vercel.app/).
 
-## ✨ Funcionalidades
+## 🚀 Funcionalidades
 
 - **Seção "Sobre Mim"**: Informações sobre minha trajetória e interesses.
 - **Currículo**: Uma seção detalhada com minhas experiências profissionais e habilidades.

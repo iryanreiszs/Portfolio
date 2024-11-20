@@ -11,7 +11,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar m
 - **Projetos**: Apresentação dos principais projetos que desenvolvi.
 - **Design Responsivo**: Adaptável a diferentes dispositivos (desktop, tablet, mobile).
 
-## 🚀 Tecnologias Utilizadas
+## 🖥️ Tecnologias Utilizadas
 
 - **HTML5** e **CSS3**
 - **JavaScript**
